@@ -76,7 +76,7 @@
     height: 120vh;
     background-image: url('/lara01.PNG');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
   
   .logo {

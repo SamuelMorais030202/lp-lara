@@ -1,6 +1,29 @@
+'use client'
+
 import style from './header.module.css';
+import { useEffect } from 'react';
 
 export default function Header() {
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolledY = window.scrollY * 0.35;
+      const header = document.querySelector(`.${style.headerContainer}`);
+      if (header) {
+        scrolledY <= 10
+          ? header.style.backgroundPosition = 'top'
+          : header.style.backgroundPosition = `left ${scrolledY}px`;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+
+  }, []);
+
   return (
     <header className={style.headerContainer}>
       <div className={style.container}>
