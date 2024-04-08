@@ -1,4 +1,3 @@
-import About from "@/components/About";
 import Benefits from "@/components/Benefits";
 import Call from "@/components/Call";
 import Footer from "@/components/Footer";
@@ -12,7 +11,6 @@ export default function Home() {
       <History />
       <Call />
       <Benefits />
-      <About />
       <Footer />
     </section>
   )
