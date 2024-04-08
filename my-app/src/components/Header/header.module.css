@@ -1,0 +1,107 @@
+.headerContainer {
+  height: 100vh;
+  background-image: url('/lara01_resized.PNG');
+  background-size: cover;
+  background-position: left;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.title {
+  margin-top: 28px;
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: 'EB Garamond';
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.subTitle {
+  color: rgb(233, 211, 121);
+  font-weight: 600;
+  font-family: 'EB Garamond';
+  font-size: 26px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.button {
+  background-image: linear-gradient(rgb(233, 211, 121), rgb(124, 109, 48));
+  color: white;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.attention {
+  color: rgb(233, 211, 121);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .headerContainer {
+    height: 120vh;
+    background-image: url('/lara01.PNG');
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .subTitle {
+    color: rgb(233, 211, 121);
+    font-weight: 600;
+    font-family: 'EB Garamond';
+    font-size: 24px;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 25px;
+  }
+  
+  .text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+  }
+}
