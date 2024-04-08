@@ -2,50 +2,30 @@ export default function Call() {
   return (
     <section>
       <h2>
-        PARA QUEM É ESSA OPORTUNIDADE? 
+        Pra quem é a Sessão Estratégica
       </h2>
 
       <p>
-        Quer faturar mais de 10 mil reais por mês como fisio;
+        Você que não sabe colocar valor nos seus atendimentos 
       </p>
 
       <p>
-        Quer ter a liberdade de atender pessoas do mundo todo,
-        sem precisar estar presa dentro de um consultório;
+        Você que tem uma carga horária de trabalho exaustiva 
       </p>
 
       <p>
-        Quer ser reconhecida e valorizada como a melhor fisio
-        da região;
+        Você que dar desconto para seus pacientes porque tem
+        pena deles ficar sem tratamento
       </p>
 
       <p>
-        Quer ter fãs nas redes sociais e pessoas implorando por
-        um horário de atendimento;
+        Você que trabalha demais e no final não tem tempo para
+        fazer a gestão administrativa e hoje está tudo um “CAOS”
       </p>
 
       <p>
-        Quer cobrar o preço que o seu trabalho realmente vale e
-        as pessoas nem reclamarem por isso;
+        Você que ama o que faz mas está cansada e não sabe como se organizar 
       </p>
-
-      <p>
-        Que não quer ser mais uma fisio na região;
-      </p>
-
-      <p>
-        Quer construir um negócio de verdade e parar de pensar
-        pequeno;
-      </p>
-
-      <p>
-        É completamente apaixonada pela fisioterapia e quer
-        enriquecer nessa profissão
-      </p>
-
-      <button>
-        QUERO PREENCHER A APLICAÇÃO
-      </button>
     </section>
   )
 }

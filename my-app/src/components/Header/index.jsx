@@ -2,14 +2,18 @@ export default function Header() {
   return (
     <header>
       <div>
-        <h1>CONSULTORIA ESTRATÉGICA</h1>
+        <h3>Sessão Estratégica Gratuita</h3>
 
-        <h3>ATENÇÃO FISIOTERAPEUTAS</h3>
+        <h2>
+          EM 30 MINUTOS VOU TE MOSTRAR O QUE TE IMPEDE  DE COBRAR
+          ATÉ 2X MAIS EM 2024 E FATURAR MUITO MAIS QUE R$10.000
+          POR MÊS COMO FISIOTERAPEUTA
+        </h2>
 
         <p>
-          EXISTE UM CAMINHO PARA LOTAR SUA AGENDA
-          EM 2024 E FATURAR MUITO MAIS QUE R$10.0000
-          POR MÊS NO SEU CONSULTÓRIO
+          Um caminho testado e validado para se posicionar como
+          autoridade na fisioterapia, você pode fazer mais dinheiro
+          trabalhando menos e ter previsibilidade no seu negócio. 
         </p>
 
         <p>
@@ -20,14 +24,17 @@ export default function Header() {
         </p>
 
         <p>
-          Em uma consultoria gratuita de 30 minutos, o meu
-          time vai construir um plano de ação personalizado
-          para o seu momento.
+          Aperte no botão abaixo para agendar sua sessão.
         </p>
 
         <button>
-          QUERO PREENCHER A APLICAÇÃO
+          QUERO SER SELECIONADO
         </button>
+
+        <p>
+          Atenção: A Sessão é gratuita, porém, possui limite de horários.
+          A agenda pode ser fechada a qualquer momento – sem aviso prévio.
+        </p>
 
       </div>
     </header>

@@ -3,28 +3,37 @@ export default function History() {
     <section>
       <div>
         <h1>
-          DO ANONIMATO À FISIOTERAPEUTA MAIS DESEJADA DA SUA
-          REGIÃO - SENDO RECONHECIDA NO BRASIL TODO! 
+          O QUE VOCÊ VAI RECEBER 
         </h1>
 
         <p>
-          Essa é a meta e o comprometimento que desejo fazer
-          com você. Me dê 6 meses e você não vai conseguir
-          nem se lembrar de quando lutava para trazer clientes
-          novos para dentro do consultório.  
+          Em uma consultoria gratuita de 30 minutos, vamos construir um
+          plano de ação personalizado para o seu momento.
         </p>
 
         <p>
-          O mercado de fisioterapeutas mudou e se você quer viver
-          do seu consultório, também vai precisar mudar.
+          1º Diagnóstico do seu estado atual
         </p>
 
         <p>
-          O que antes funcionava já não funciona mais. Fisioterapeutas
-          maravilhosas estão cada vez mais ficando para trás por não
-          saberem como se posicionar, conquistar autoridade e ter um
-          método de atendimento que seja realmente encantador.
+          Vou analisar o seu posicionamento, o seu processo de vendas,
+          a sua consulta e como funciona a gestão da sua empresa hoje
+          para entender o seu cenário atual.
         </p>
+
+        <p>
+          2º Plano Estratégico de Crescimento Personalizado para você
+        </p>
+
+        <p>
+          Com clareza do seu momento atual, vamos montar o seu plano de
+          ação, te mostrando o caminho para cobrar o valor justo, escalar
+          o seu faturamento e levar o seu negócio para o próximo nível.
+        </p>
+
+        <button>
+          QUERO ME TORNAR UMA FISIO VALORIZADA
+        </button>
       </div>
     </section>
   )
