@@ -1,0 +1,88 @@
+.cardHistory {
+  min-height: 110vh;
+  padding: 20px 0 50px 0;
+  background-color: #001b24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.divHistory {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 60%;
+}
+
+.titleHistory {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(233, 211, 121);
+  font-family: 'EB Garamond';
+  line-height: 1.1;
+}
+
+.text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 21px;
+  color: #ECECEC;
+  margin-top: 20px;
+  font-family: 'EB Garamond';
+}
+
+.topic {
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+  color: rgb(233, 211, 121);
+  margin-top: 20px;
+  font-family: 'EB Garamond';
+}
+
+.buttonHistory {
+  margin-top: 38px;
+  background-image: linear-gradient(rgb(233, 211, 121), rgb(124, 109, 48));
+  color: white;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+@media only screen and (max-width: 900px) {
+  
+  .divHistory {
+    width: 90%;
+  }
+  
+  .titleHistory {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  
+  .text {
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  
+  .topic {
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 20px;
+  }
+  
+  .buttonHistory {
+    margin-top: 28px;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+}
