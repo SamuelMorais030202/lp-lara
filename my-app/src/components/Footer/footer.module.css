@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+  .footerCard {
+    height: 85vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .footerContainerText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .footerText {
+    text-align: center;
+    width: 90%;
+    font-weight: 500;
+    font-size: 21px;
+    color: #ECECEC;
+    margin-top: 10px;
+    font-family: 'EB Garamond';
+  }
+
+  .footerAlert {
+    color: rgb(233, 211, 121);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footerAlert p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
