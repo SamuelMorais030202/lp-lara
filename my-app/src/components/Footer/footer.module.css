@@ -1,3 +1,44 @@
+.footerCard {
+  background-color: black;
+  height: 60vh;
+}
+
+.footerContainerText {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.footerText {
+  text-align: center;
+  width: 80%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ECECEC;
+  margin-top: 10px;
+  font-family: 'EB Garamond';
+}
+
+.footerAlert {
+  color: rgb(233, 211, 121);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.footerAlert p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 900px) {
   .footerCard {
     height: 85vh;
@@ -22,7 +63,7 @@
     text-align: center;
     width: 90%;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 20px;
     color: #ECECEC;
     margin-top: 10px;
     font-family: 'EB Garamond';

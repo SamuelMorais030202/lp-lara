@@ -63,45 +63,49 @@ export default function Benefits() {
   }
 
   return (
-    <section>
-      <h1>Prazer, Lara Oliveira</h1>
+    <section className={style.beneficieCardDescktop}>
 
-      <div>
-          <p>
+      <div className={style.imageDescktop}>
+
+      </div>
+
+      <div className={style.textsDescktop}>
+        <h1 className={style.descktopTitle}>Prazer, Lara Oliveira</h1>
+
+        <div className={style.cardTexts}>
+          <p className={style.descktopText}>
             Sou Fisioterapeuta há 9 anos, Mentora das Fisios de Negócios
             e criadora da Mentoria Cactus. Ao longo de 8 anos, estive dedicada
             à fisioterapia em minha clínica em São Paulo, transformando vidas
             e construindo um negócio sólido.
           </p>
-      </div>
 
-      <div>
-          <p>
+          <p className={style.descktopText}>
             Há 4 anos, mergulhei no mundo digital, explorando novas fronteiras
             para a fisioterapia no digital. E agora, através dos meus cursos e
             mentorias, irei te passar todos os direcionamentos e estratégias
             necessárias para escalar seu negócio — e, assim, tornar-se uma
             Fisioterapeuta Empresária, sendo a protagonista do seu negócio. 
           </p>
-      </div>
 
-      <p>
-        Como mentora, minha missão é  te guiar na construção de um 
-        negócio sólido e ser valorizada.
-      </p>
+          <p className={style.descktopText}>
+            Como mentora, minha missão é  te guiar na construção de um 
+            negócio sólido e ser valorizada.
+          </p>
+        </div>
 
+        <div className={style.descktopInformations}>
+          <p className={style.descktopText}><span>Aperte no botão abaixo</span> para agendar sua sessão.</p>
 
-      <div>
-        <p><span>Aperte no botão abaixo</span> para agendar sua sessão.</p>
+          <button className={style.descktopButton}>
+            QUERO SER SELECIONADO
+          </button>
 
-        <button>
-          QUERO SER SELECIONADO
-        </button>
-
-        <p>
-          Atenção: A Sessão é gratuita, porém, possui limite de horários.
-          A agenda pode ser fechada a qualquer momento – sem aviso prévio.
-        </p>
+          <p className={style.descktopAlert}>
+            Atenção: A Sessão é gratuita, porém, possui limite de horários.
+            A agenda pode ser fechada a qualquer momento – sem aviso prévio.
+          </p>
+        </div>
       </div>
     </section>
   )
