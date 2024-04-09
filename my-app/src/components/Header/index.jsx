@@ -1,9 +1,10 @@
 'use client'
 
 import style from './header.module.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Header() {
+  const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,13 +17,73 @@ export default function Header() {
       }
     };
 
+    const updateWindowSize = () => {
+      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+    };
+
+    window.addEventListener('resize', updateWindowSize);
+
+    updateWindowSize();
+
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', updateWindowSize);
     };
 
   }, []);
+
+  if (Number(windowSize.width) > 700) {
+    return (
+      <header className={style.headerDescktop}>
+        <div className={style.descktopImage}>
+
+        </div>
+
+        <div className={style.descktopContainer}>
+          <div className={style.container}>
+            <h3 className={style.descktopTitle}>
+              <img src="/logo01.png" alt="logo" className={style.logo} />
+              Sessão Estratégica Gratuita
+            </h3>
+
+            <h2 className={style.descktopSubTitle}>
+              EM 30 MINUTOS VOU TE MOSTRAR O QUE TE IMPEDE  DE COBRAR
+              ATÉ 2X MAIS EM 2024 E FATURAR MUITO MAIS QUE R$10.000
+              POR MÊS COMO FISIOTERAPEUTA
+            </h2>
+
+            <p className={style.descktopText}>
+              Um caminho testado e validado para se posicionar como
+              autoridade na fisioterapia, você pode fazer mais dinheiro
+              trabalhando menos e ter previsibilidade no seu negócio. 
+            </p>
+
+            <p className={style.descktopText}>
+              Saiba como aplicar o método validado que me fez ter
+              a agenda lotada com menos de 6 meses de formada,
+              sem precisar dar retorno e cobrando mais do que as
+              minhas concorrentes cobravam.
+            </p>
+
+            <p className={style.descktopText}>
+              <span>Aperte no botão abaixo</span> para agendar sua sessão.
+            </p>
+
+            <button className={style.button}>
+              QUERO SER SELECIONADO
+            </button>
+
+            <p className={style.attention}>
+              Atenção: A Sessão é gratuita, porém, possui limite de horários.
+              A agenda pode ser fechada a qualquer momento – sem aviso prévio.
+            </p>
+          </div>
+        </div>
+      </header>
+    )
+  }
 
   return (
     <header className={style.headerContainer}>
