@@ -118,7 +118,10 @@
   }
 
   .container {
-    padding: 8px;
+    padding: 15px;
+    width: 100%;
+    background-image: linear-gradient(to top, black, #001b24); /* Gradiente linear de preto para dourado */
+    transition: background-image 0.5s ease; 
   }
   
   .subTitle {
