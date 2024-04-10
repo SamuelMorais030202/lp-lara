@@ -126,6 +126,8 @@ export default function Header() {
         </p>
 
       </div>
+
+      <div className={style.headerContainerImage}></div>
     </header>
   )
 }

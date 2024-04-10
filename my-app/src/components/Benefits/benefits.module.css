@@ -82,7 +82,7 @@
 
 @media only screen and (max-width: 900px) {
   .beneficieCardMobile {
-    height: 150vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,8 +110,8 @@
 
   .textMobile {
     text-align: center;
-    font-weight: 600;
-    font-size: 21px;
+    font-weight: 00;
+    font-size: 20px;
     color: #ECECEC;
     margin-top: 10px;
     font-family: 'EB Garamond';
