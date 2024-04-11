@@ -1,10 +1,12 @@
 'use client'
 
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react"
 import style from './benefits.module.css';
 
 export default function Benefits() {
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
+  const router = useRouter();
 
   useEffect(() => {
     const updateWindowSize = () => {
@@ -48,7 +50,7 @@ export default function Benefits() {
             <div className={style.informations}>
               <p className={style.textMobile}><span className={style.spanText}>Aperte no botão abaixo</span> para agendar sua sessão.</p>
 
-              <button className={style.buttonMobile}>
+              <button className={style.buttonMobile} onClick={() => router.push('/forms')}>
                 QUERO SER SELECIONADO
               </button>
 
@@ -99,7 +101,7 @@ export default function Benefits() {
         <div className={style.descktopInformations}>
           <p className={style.descktopText}><span>Aperte no botão abaixo</span> para agendar sua sessão.</p>
 
-          <button className={style.descktopButton}>
+          <button className={style.descktopButton} onClick={() => router.push('/forms')}>
             QUERO SER SELECIONADO
           </button>
 

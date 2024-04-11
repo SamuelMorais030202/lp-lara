@@ -2,9 +2,11 @@
 
 import style from './header.module.css';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Header() {
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +35,10 @@ export default function Header() {
     };
 
   }, []);
+
+  const navigate = () => {
+    router.push('/forms');
+  }
 
   if (Number(windowSize.width) > 700) {
     return (
@@ -71,7 +77,7 @@ export default function Header() {
               <span>Aperte no botão abaixo</span> para agendar sua sessão.
             </p>
 
-            <button className={style.button}>
+            <button className={style.button} onClick={() => navigate()}>
               QUERO SER SELECIONADO
             </button>
 
@@ -116,7 +122,7 @@ export default function Header() {
           Aperte no botão abaixo para agendar sua sessão.
         </p>
 
-        <button className={style.button}>
+        <button className={style.button} onClick={() => navigate()}>
           QUERO SER SELECIONADO
         </button>
 

@@ -1,6 +1,11 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import style from './history.module.css';
 
 export default function History() {
+  const router = useRouter();
+
   return (
     <section className={style.cardHistory}>
       <div className={style.divHistory}>
@@ -33,7 +38,7 @@ export default function History() {
           o seu faturamento e levar o seu negócio para o próximo nível.
         </p>
 
-        <button className={style.buttonHistory}>
+        <button className={style.buttonHistory} onClick={() => router.push('/forms')}>
           QUERO ME TORNAR UMA FISIO VALORIZADA
         </button>
       </div>
