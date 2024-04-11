@@ -1,0 +1,124 @@
+.formsPage {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 15px;
+  background-image: linear-gradient(to top, black, #001b24)
+}
+
+.imageFormsPage {
+  height: 100%;
+  width: 45vw;
+  background-image: url('/Lara-5.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.textFormPage {
+  height: 100%;
+  width: 43vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.titleFormsPage {
+  margin-top: 28px;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'EB Garamond';
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoFormsPage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.paragraphFormsPage {
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.formsFormPage {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputForms {
+  width: 400px;
+  font-size: 18px;
+  background-color: white;
+  text-decoration: none;
+  border-color:  goldenrod;
+}
+
+.formsFormPage button {
+  background-image: linear-gradient(rgb(233, 211, 121), rgb(124, 109, 48));
+  color: white;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 21px;
+}
+
+@media screen and (max-width: 900px) {
+  .formsPage {
+    min-height: 172vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .conternerFormsPage {
+    width: 100vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .titleFormsPage {
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .imageFormsPage {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .logoFormsPage {
+    width: 30px;
+    height: 30px;
+  }
+
+  .textFormPage {
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .paragraphFormsPage {
+    margin-top: 20px;
+  }
+
+  .inputForms {
+    width: 300px;
+  } 
+}
