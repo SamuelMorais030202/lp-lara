@@ -23,8 +23,20 @@ export default function Forms() {
     }));
   }
 
-  const handleClick = () => {
+  const handleClick = async () => {
     console.log(data);
+    try {
+      const response = await fetch('/api', {
+        method: 'POST',
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        console.log('E-mail enviado com sucesso!');
+      }
+    } catch (error) {
+      console.error('Erro ao enviar e-mail:', error);
+    }
   }
 
   return (
@@ -48,7 +60,7 @@ export default function Forms() {
           <form className={style.formsFormPage}>
             <TextField
               id="name"
-              variant="outlined"
+              variant="filled"
               label="Digite seu Nome"
               name="name"
               value={data.name}
@@ -58,7 +70,7 @@ export default function Forms() {
             />
             <TextField
               id="email"
-              variant="outlined"
+              variant="filled"
               label="E-mail"
               name="email"
               value={data.email}
@@ -68,9 +80,8 @@ export default function Forms() {
             />
             <TextField
               id="whatsApp"
-              variant="outlined"
-              label="Seu
-              WhatsApp"
+              variant="filled"
+              label="Seu WhatsApp"
               name="whatsApp"
               value={data.whatsApp}
               onChange={(e) => handleChange(e)}
