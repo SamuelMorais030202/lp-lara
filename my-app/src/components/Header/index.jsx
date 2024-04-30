@@ -55,23 +55,9 @@ export default function Header() {
             </h3>
 
             <h2 className={style.descktopSubTitle}>
-              EM 30 MINUTOS VOU TE MOSTRAR O QUE TE IMPEDE  DE COBRAR
-              ATÉ 2X MAIS EM 2024 E FATURAR MUITO MAIS QUE R$10.000
-              POR MÊS COMO FISIOTERAPEUTA
+              EM 30 MINUTOS VOU IDENTIFICAR O QUE TE IMPEDE  DE COBRAR ATÉ 2X MAIS
+              EM 2024 E FATURAR MUITO MAIS QUE R$10.000 POR MÊS COMO FISIOTERAPEUTa
             </h2>
-
-            <p className={style.descktopText}>
-              Um caminho testado e validado para se posicionar como
-              autoridade na fisioterapia, você pode fazer mais dinheiro
-              trabalhando menos e ter previsibilidade no seu negócio. 
-            </p>
-
-            <p className={style.descktopText}>
-              Saiba como aplicar o método validado que me fez ter
-              a agenda lotada com menos de 6 meses de formada,
-              sem precisar dar retorno e cobrando mais do que as
-              minhas concorrentes cobravam.
-            </p>
 
             <p className={style.descktopText}>
               <span>Aperte no botão abaixo</span> para agendar sua sessão.
@@ -100,23 +86,9 @@ export default function Header() {
         </h3>
 
         <h2 className={style.subTitle}>
-          EM 30 MINUTOS VOU TE MOSTRAR O QUE TE IMPEDE  DE COBRAR
-          ATÉ 2X MAIS EM 2024 E FATURAR MUITO MAIS QUE R$10.000
-          POR MÊS COMO FISIOTERAPEUTA
+          EM 30 MINUTOS VOU IDENTIFICAR O QUE TE IMPEDE  DE COBRAR ATÉ 2X MAIS
+          EM 2024 E FATURAR MUITO MAIS QUE R$10.000 POR MÊS COMO FISIOTERAPEUTA
         </h2>
-
-        <p className={style.text}>
-          Um caminho testado e validado para se posicionar como
-          autoridade na fisioterapia, você pode fazer mais dinheiro
-          trabalhando menos e ter previsibilidade no seu negócio. 
-        </p>
-
-        <p className={style.text}>
-          Saiba como aplicar o método validado que me fez ter
-          a agenda lotada com menos de 6 meses de formada,
-          sem precisar dar retorno e cobrando mais do que as
-          minhas concorrentes cobravam.
-        </p>
 
         <p className={style.text}>
           Aperte no botão abaixo para agendar sua sessão.

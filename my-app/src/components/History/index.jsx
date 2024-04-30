@@ -14,11 +14,12 @@ export default function History() {
         </h1>
 
         <p className={style.text}>
-          Em uma consultoria gratuita de 30 minutos, vamos construir um
-          plano de ação personalizado para o seu momento.
+          Em uma consultoria gratuita de 30 minutos, vou analisar o que te impede
+          de faturar R$10.000,00 ou mais  como fisioterapeuta, identificar os erros,
+          melhorias e oportunidades de crescimento
         </p>
 
-        <p className={style.topic}>
+        {/* <p className={style.topic}>
           1º Diagnóstico do seu estado atual
         </p>
 
@@ -30,12 +31,12 @@ export default function History() {
 
         <p className={style.topic}>
           2º Plano Estratégico de Crescimento Personalizado para você
-        </p>
+        </p> */}
 
         <p className={style.text}>
-          Com clareza do seu momento atual, vamos montar o seu plano de
-          ação, te mostrando o caminho para cobrar o valor justo, escalar
-          o seu faturamento e levar o seu negócio para o próximo nível.
+          Com clareza do seu momento atual, vamos montar o seu plano de ação, te mostrando
+          o caminho para cobrar o valor justo, escalar o seu faturamento e levar o seu
+          negócio para o próximo nível.
         </p>
 
         <button className={style.buttonHistory} onClick={() => router.push('/forms')}>
